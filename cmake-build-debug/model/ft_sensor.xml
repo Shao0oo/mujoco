@@ -1,0 +1,13 @@
+<mujoco>
+    <torque name="joint1_torque_sensor" site="joint1_site"/>
+    <torque name="joint2_torque_sensor" site="joint2_site"/>
+    <torque name="joint3_torque_sensor" site="joint3_site"/>
+    <torque name="joint4_torque_sensor" site="joint4_site"/>
+    <torque name="joint5_torque_sensor" site="joint5_site"/>
+    <torque name="joint6_torque_sensor" site="joint6_site"/>
+    <torque name="joint7_torque_sensor" site="joint7_site"/>
+
+    <force name="ee_force_sensor" site="ee_site"/>
+    <torque name="ee_torque_sensor" site="ee_site"/>
+
+</mujoco>

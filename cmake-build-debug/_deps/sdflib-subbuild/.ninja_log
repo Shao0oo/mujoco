@@ -1,0 +1,19 @@
+# ninja log v5
+0	12	1742341464747439538	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-mkdir	af1020d344a555c8
+1329	1341	1742341466075869910	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-configure	75d94e0aedef9ea8
+0	12	1742341464747439538	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-mkdir	af1020d344a555c8
+1341	1353	1742341466088230442	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-build	770a96d17fcd5527
+13	1316	1742341466051274221	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-download	e7ce0c91c55ac907
+13	1316	1742341466051274221	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-download	e7ce0c91c55ac907
+1316	1329	1742341466063903798	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-patch	e5b3e2a4816d8460
+1353	1367	1742341466101685902	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-install	15ce94003788142d
+1329	1341	1742341466075869910	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-configure	75d94e0aedef9ea8
+1380	1398	1742341466132984570	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-done	b00a38ef6d9a7586
+1341	1353	1742341466088230442	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-build	770a96d17fcd5527
+1353	1367	1742341466101685902	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-install	15ce94003788142d
+1380	1398	1742341466132984570	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/CMakeFiles/sdflib-populate-complete	b00a38ef6d9a7586
+1380	1398	1742341466132984570	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-done	b00a38ef6d9a7586
+1367	1380	1742341466114673024	sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-test	bcb98b92961d0606
+1380	1398	1742341466132984570	CMakeFiles/sdflib-populate-complete	b00a38ef6d9a7586
+1316	1329	1742341466063903798	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-patch	e5b3e2a4816d8460
+1367	1380	1742341466114673024	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-test	bcb98b92961d0606

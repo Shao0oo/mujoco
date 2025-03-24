@@ -268,6 +268,65 @@ mjModel* LoadModel(const char* file, mj::Simulate& sim) {
   return mnew;
 }
 
+//------------------------------------------- user code start -------------------------------------------
+
+    void applyPandaControl(mjModel* m, mjData* d) {
+        // Fixed-size arrays for the 7-DOF Panda robot
+        mjtNum sensor_torque[7][3] = {};
+        mjtNum ee_ft[6] = {0};
+        static mjtNum prev_force = 0;
+        static mjtNum prev_torque = 0;
+
+
+        for (int n = 0; n < m->nsensor; n++) {
+            int type = m->sensor_type[n];
+
+            int adr = m->sensor_adr[n];
+            int dim = m->sensor_dim[n];
+
+
+            if (type == mjSENS_TORQUE) {
+                for (int i=0; i<dim; i++) {
+                    if (n<7) {
+                        sensor_torque[n][i] = d->sensordata[adr+i];
+                    } else {
+                        ee_ft[i] = d->sensordata[adr + i];
+                    }
+                }
+            } else if (type == mjSENS_FORCE) {
+                for (int i=0; i<dim; i++) {
+                    ee_ft[i] = d->sensordata[adr+2];
+                }
+            }
+        }
+
+        mjtNum force = sqrt(pow(ee_ft[0], 2) + pow(ee_ft[1], 2) + pow(ee_ft[2], 2));
+        mjtNum torque = sqrt(pow(ee_ft[3], 2) + pow(ee_ft[4], 2) + pow(ee_ft[5], 2));
+
+        mjtNum force_derivative = mju_abs(force - prev_force);
+        mjtNum torque_derivative = mju_abs(torque - prev_torque);
+        prev_force = force;
+        prev_torque = torque;
+
+        if (force_derivative > 1 || torque_derivative > 1) {
+            for (int i = 0; i < 7; i++) {
+                mjtNum q_desired = d->qpos[i];
+                d->ctrl[i] = q_desired;
+            }
+        }
+    }
+
+
+//        for (int i = 0; i < 7; i++) {
+//            // Get current position as the desired position (position tracking)
+//            mjtNum q_desired = d->qpos[i];
+//
+//            d->ctrl[i] = q_desired;
+//        }
+
+//------------------------------------------- user code end -------------------------------------------
+
+
 // simulate in background thread (while rendering in main thread)
 void PhysicsLoop(mj::Simulate& sim) {
   // cpu-sim syncronization point
@@ -365,6 +424,10 @@ void PhysicsLoop(mj::Simulate& sim) {
             syncSim = d->time;
             sim.speed_changed = false;
 
+            // User Code Start //
+              applyPandaControl(m, d);
+              // User Code End //
+
             // run single step, let next iteration deal with timing
             mj_step(m, d);
             const char* message = Diverged(m->opt.disableflags, d);
@@ -395,6 +458,10 @@ void PhysicsLoop(mj::Simulate& sim) {
 
               // inject noise
               sim.InjectNoise();
+
+                // User Code Start //
+                applyPandaControl(m, d);
+                // User Code End //
 
               // call mj_step
               mj_step(m, d);
@@ -447,8 +514,12 @@ void PhysicsThread(mj::Simulate* sim, const char* filename) {
     if (d) {
       sim->Load(m, d, filename);
 
-      // lock the sim mutex
-      const std::unique_lock<std::recursive_mutex> lock(sim->mtx);
+        // lock the sim mutex
+        const std::unique_lock<std::recursive_mutex> lock(sim->mtx);
+
+        // Disable shadows (0 = disabled, 1 = enabled)
+        sim->scn.flags[mjRND_SHADOW] = 0;
+
 
       mj_forward(m, d);
 
@@ -510,7 +581,10 @@ int main(int argc, char** argv) {
       &cam, &opt, &pert, /* is_passive = */ false
   );
 
-  const char* filename = nullptr;
+    sim->scn.flags[mjRND_SHADOW] = 0;  // Disable shadows
+
+
+    const char* filename = nullptr;
   if (argc >  1) {
     filename = argv[1];
   }

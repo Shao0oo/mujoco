@@ -1,0 +1,19 @@
+# ninja log v5
+13	1028	1742341464603617732	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-download	284e54ef6306ac5b
+1039	1050	1742341464625668730	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-configure	6b108008eaa1b19f
+1082	1097	1742341464672917965	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-done	6c5f23cac6e96d21
+0	13	1742341463588921135	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-mkdir	1edfea7dc5e5236e
+0	13	1742341463588921135	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-mkdir	1edfea7dc5e5236e
+1060	1071	1742341464647388017	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-install	462fb9cbcc015b2d
+1039	1050	1742341464625668730	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-configure	6b108008eaa1b19f
+1050	1060	1742341464636514790	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-build	828b71b287649713
+13	1028	1742341464603617732	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-download	284e54ef6306ac5b
+1082	1097	1742341464672917965	CMakeFiles/tinyobjloader-populate-complete	6c5f23cac6e96d21
+1028	1038	1742341464614611168	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-patch	e9715da853e1bad6
+1028	1038	1742341464614611168	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-patch	e9715da853e1bad6
+1050	1060	1742341464636514790	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-build	828b71b287649713
+1060	1071	1742341464647388017	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-install	462fb9cbcc015b2d
+1071	1082	1742341464658056784	tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-test	7214853d90cf84c
+1071	1082	1742341464658056784	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-test	7214853d90cf84c
+1082	1097	1742341464672917965	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/CMakeFiles/tinyobjloader-populate-complete	6c5f23cac6e96d21
+1082	1097	1742341464672917965	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-done	6c5f23cac6e96d21

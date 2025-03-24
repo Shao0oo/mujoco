@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/CMakeFiles/qhull-populate"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/CMakeFiles/qhull-populate.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/CMakeFiles/qhull-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-build.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-download.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-install.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qhull-populate"
+		],
+		"name" : "qhull-populate"
+	}
+}

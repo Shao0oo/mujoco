@@ -1,0 +1,19 @@
+# ninja log v5
+0	12	1742341497283458868	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-mkdir	3eb8a73ae0421da4
+13	867	1742341498138492676	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-download	60f9bf0921a7ab9e
+929	946	1742341498217277623	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/CMakeFiles/ccd-populate-complete	95cd287dd04df048
+13	867	1742341498138492676	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-download	60f9bf0921a7ab9e
+0	12	1742341497283458868	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-mkdir	3eb8a73ae0421da4
+892	904	1742341498175537356	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-build	99a217658d26db4d
+868	879	1742341498150332204	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-patch	e41741ea17f3efca
+905	917	1742341498188173517	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-install	fd3762bd1738d7a5
+868	879	1742341498150332204	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-patch	e41741ea17f3efca
+879	892	1742341498162699069	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-configure	11103f4830bf0914
+879	892	1742341498162699069	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-configure	11103f4830bf0914
+892	904	1742341498175537356	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-build	99a217658d26db4d
+929	946	1742341498217277623	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-done	95cd287dd04df048
+917	929	1742341498200407423	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-test	890e77b03d610ad5
+905	917	1742341498188173517	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-install	fd3762bd1738d7a5
+929	946	1742341498217277623	CMakeFiles/ccd-populate-complete	95cd287dd04df048
+917	929	1742341498200407423	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-test	890e77b03d610ad5
+929	946	1742341498217277623	ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-done	95cd287dd04df048

@@ -1,0 +1,19 @@
+# ninja log v5
+1178	1191	1742341463393598137	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-patch	98c7a29dff0ae3a0
+0	13	1742341462216351142	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-mkdir	a3a65c6981c8898d
+0	13	1742341462216351142	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-mkdir	a3a65c6981c8898d
+1191	1202	1742341463405554875	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-configure	38b0f68a649398a
+1227	1239	1742341463442509388	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-test	e2a99e3043fc3635
+13	1178	1742341463381337272	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-download	b49c4895b0c2d60e
+13	1178	1742341463381337272	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-download	b49c4895b0c2d60e
+1191	1202	1742341463405554875	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-configure	38b0f68a649398a
+1240	1257	1742341463460188762	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-done	45d682678b535fcb
+1178	1191	1742341463393598137	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-patch	98c7a29dff0ae3a0
+1203	1215	1742341463417594112	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-build	21ef24514ee70719
+1203	1215	1742341463417594112	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-build	21ef24514ee70719
+1215	1227	1742341463430132355	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-install	c0ab5a513a581dc1
+1227	1239	1742341463442509388	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-test	e2a99e3043fc3635
+1215	1227	1742341463430132355	tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-install	c0ab5a513a581dc1
+1240	1257	1742341463460188762	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/tinyxml2-populate-done	45d682678b535fcb
+1240	1257	1742341463460188762	CMakeFiles/tinyxml2-populate-complete	45d682678b535fcb
+1240	1257	1742341463460188762	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/tinyxml2-subbuild/CMakeFiles/tinyxml2-populate-complete	45d682678b535fcb

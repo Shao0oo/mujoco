@@ -2167,7 +2167,7 @@ void Simulate::LoadMessageClear(void) {
 
 
 
-//------------------------------------- load mjb or xml model --------------------------------------
+// TODO ------------------------------------- load mjb or xml model --------------------------------------
 void Simulate::LoadOnRenderThread() {
   this->m_ = this->mnew_;
   this->d_ = this->dnew_;
@@ -2344,6 +2344,8 @@ void Simulate::LoadOnRenderThread() {
       this->real_time_index = click;
     }
   }
+
+  this->real_time_index = 3;
 
   this->mnew_ = nullptr;
   this->dnew_ = nullptr;

@@ -1,0 +1,989 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/xml_native_writer_test"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"mujoco_test",
+			"target_link_libraries",
+			"absl_cc_library",
+			"add_compile_options",
+			"include",
+			"add_compile_definitions",
+			"target_include_directories",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt",
+			"test/xml/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/CMake/AbseilHelpers.cmake",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/container/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/strings/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/crc/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/hash/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/types/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/synchronization/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/debugging/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/time/CMakeLists.txt",
+			"cmake-build-debug/_deps/abseil-cpp-src/absl/base/CMakeLists.txt",
+			"cmake/MujocoOptions.cmake",
+			"CMakeLists.txt",
+			"cmake/MujocoDependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 322,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 332,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 490,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 332,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 969,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 827,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 55,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 469,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 332,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 741,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 20
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 17,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 23
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 247,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 332,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 625,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 28
+			},
+			{
+				"file" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 30
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 69,
+				"parent" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 33
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 19,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 62,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 194,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 40
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 283,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 42
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 253,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 44
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 35,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 46
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 17,
+				"parent" : 48
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 49
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 57,
+				"parent" : 48
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 51
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 229,
+				"parent" : 53
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 54
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 166,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 332,
+				"parent" : 56
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 712,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 332,
+				"parent" : 58
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 51,
+				"parent" : 60
+			},
+			{
+				"file" : 12,
+				"parent" : 61
+			},
+			{
+				"command" : 4,
+				"file" : 12,
+				"line" : 60,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 53,
+				"parent" : 60
+			},
+			{
+				"file" : 14,
+				"parent" : 64
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 331,
+				"parent" : 65
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 123,
+				"parent" : 65
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 63,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 63,
+					"fragment" : "-ffunction-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 66,
+					"define" : "EIGEN_MPL2_ONLY"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MJSTATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "mjUSEPLATFORMSIMD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 67,
+					"path" : "/Users/alexshao/Desktop/mujoco/test/.."
+				},
+				{
+					"backtrace" : 67,
+					"path" : "/Users/alexshao/Desktop/mujoco/test/../src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/alexshao/Desktop/mujoco/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/abseil-cpp-src"
+				},
+				{
+					"backtrace" : 68,
+					"isSystem" : true,
+					"path" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/googletest-src/googletest"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/googletest-src/googlemock/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/googletest-src/googlemock"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "absl_log_severity::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_logging_internal::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_spinlock_wait::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_malloc_internal::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_base::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_throw_delegate::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_tracing_internal::@649cb5ab055927a76ab5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_hashtablez_sampler::@49ad4cc58ca2b33d3cb1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_hash_set::@49ad4cc58ca2b33d3cb1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc_cpu_detect::@e7b73a99dc329af715ea"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc_internal::@e7b73a99dc329af715ea"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc32c::@e7b73a99dc329af715ea"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_crc_cord_state::@e7b73a99dc329af715ea"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_stacktrace::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_symbolize::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_debugging_internal::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_demangle_internal::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_decode_rust_punycode::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_demangle_rust::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_utf8_for_code_point::@29ce828be0197ec6dd61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_hash::@e82b4f9cfb0ccfacbdfd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_city::@e82b4f9cfb0ccfacbdfd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_low_level_hash::@e82b4f9cfb0ccfacbdfd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_int128::@9d8e9017d0346130c5af"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_exponential_biased::@610112b8222b7e6b2b6f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_string_view::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings_internal::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_str_format_internal::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cord_internal::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cordz_functions::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cordz_handle::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cordz_info::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_cord::@cadd5db28f0587d4097f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_graphcycles_internal::@f8dca903cb46e5e9bef2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_kernel_timeout_internal::@f8dca903cb46e5e9bef2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_synchronization::@f8dca903cb46e5e9bef2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_time::@b4524c795b0f97a08e67"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_civil_time::@b4524c795b0f97a08e67"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_time_zone::@b4524c795b0f97a08e67"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_bad_optional_access::@91b7f7e4da4a6a5cf896"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_bad_variant_access::@91b7f7e4da4a6a5cf896"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gmock::@0f7bb11d64f3678238c7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "fixture::@36f028580bb02cc8272a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "mujoco::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "xml_native_writer_test::@e3ef0e0caed765c9adc2",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/alexshao/Desktop/mujoco/cmake-build-debug/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/libfixture.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/libgmock.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/libmujoco.3.3.1.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libabsl_raw_hash_set.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libabsl_cord.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib/libabsl_cordz_info.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib/libabsl_cord_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib/libabsl_cordz_functions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib/libabsl_cordz_handle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib/libabsl_crc_cord_state.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib/libabsl_crc32c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "lib/libabsl_crc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "lib/libabsl_crc_cpu_detect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "lib/libabsl_str_format_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libabsl_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "lib/libabsl_city.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "lib/libabsl_bad_variant_access.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "lib/libabsl_low_level_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libabsl_hashtablez_sampler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "lib/libabsl_exponential_biased.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "lib/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_graphcycles_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_kernel_timeout_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_stacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_symbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_malloc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "lib/libabsl_debugging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "lib/libabsl_demangle_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "lib/libabsl_demangle_rust.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "lib/libabsl_decode_rust_punycode.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "lib/libabsl_utf8_for_code_point.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_tracing_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "lib/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "lib/libabsl_strings_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "lib/libabsl_string_view.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "lib/libabsl_civil_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "lib/libabsl_int128.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "lib/libabsl_time_zone.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "-Wl,-framework,CoreFoundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "lib/libabsl_spinlock_wait.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 57,
+				"fragment" : "lib/libabsl_bad_optional_access.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "lib/libabsl_throw_delegate.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "lib/libabsl_raw_logging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "lib/libabsl_log_severity.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "lib/libgtest.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "xml_native_writer_test",
+	"nameOnDisk" : "xml_native_writer_test",
+	"paths" : 
+	{
+		"build" : "test/xml",
+		"source" : "test/xml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "test/xml/xml_native_writer_test.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

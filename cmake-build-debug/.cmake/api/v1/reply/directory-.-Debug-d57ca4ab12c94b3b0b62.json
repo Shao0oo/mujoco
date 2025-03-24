@@ -1,0 +1,139 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 207,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmujoco.3.3.1.dylib"
+			],
+			"targetId" : "mujoco::@6890427a1f51a3e7e1df",
+			"targetIndex" : 176,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libmujoco.dylib"
+			],
+			"targetId" : "mujoco::@6890427a1f51a3e7e1df",
+			"targetIndex" : 176,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "dev",
+			"destination" : "include/mujoco",
+			"paths" : 
+			[
+				"include/mujoco/mjdata.h",
+				"include/mujoco/mjexport.h",
+				"include/mujoco/mjmacro.h",
+				"include/mujoco/mjmodel.h",
+				"include/mujoco/mjplugin.h",
+				"include/mujoco/mjrender.h",
+				"include/mujoco/mjsan.h",
+				"include/mujoco/mjspec.h",
+				"include/mujoco/mjthread.h",
+				"include/mujoco/mjtnum.h",
+				"include/mujoco/mjui.h",
+				"include/mujoco/mjvisualize.h",
+				"include/mujoco/mjxmacro.h",
+				"include/mujoco/mujoco.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/mujoco",
+			"exportName" : "mujoco",
+			"exportTargets" : 
+			[
+				{
+					"id" : "mujoco::@6890427a1f51a3e7e1df",
+					"index" : 176
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/0b3b73e44e0b7c8937151edebfc316a5/mujocoTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/mujoco",
+			"paths" : 
+			[
+				"cmake-build-debug/mujocoConfig.cmake",
+				"cmake-build-debug/mujocoConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/mujoco",
+			"paths" : 
+			[
+				"model"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

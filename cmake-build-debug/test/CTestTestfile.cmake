@@ -1,0 +1,31 @@
+# CMake generated Testfile for 
+# Source directory: /Users/alexshao/Desktop/mujoco/test
+# Build directory: /Users/alexshao/Desktop/mujoco/cmake-build-debug/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(MujocoTestTest.MjUserWarningFailsTest "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/fixture_test" "--gtest_filter=MujocoTestTest.MjUserWarningFailsTest")
+set_tests_properties(MujocoTestTest.MjUserWarningFailsTest PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;90;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(MujocoTestTest.MjUserErrorFailsTest "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/fixture_test" "--gtest_filter=MujocoTestTest.MjUserErrorFailsTest")
+set_tests_properties(MujocoTestTest.MjUserErrorFailsTest PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;90;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(MujocoErrorTestGuardTest.NestedErrorGuards "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/fixture_test" "--gtest_filter=MujocoErrorTestGuardTest.NestedErrorGuards")
+set_tests_properties(MujocoErrorTestGuardTest.NestedErrorGuards PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;90;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(MujocoTestTest.MockFilesystemTest "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/fixture_test" "--gtest_filter=MujocoTestTest.MockFilesystemTest")
+set_tests_properties(MujocoTestTest.MockFilesystemTest PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;90;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(HeaderTest.IntsHave4Bytes "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/header_test" "--gtest_filter=HeaderTest.IntsHave4Bytes")
+set_tests_properties(HeaderTest.IntsHave4Bytes PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;92;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(HeaderTest.IntsHaveAtLeast31Bits "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/header_test" "--gtest_filter=HeaderTest.IntsHaveAtLeast31Bits")
+set_tests_properties(HeaderTest.IntsHaveAtLeast31Bits PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;92;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(HeaderTest.EnumsAreInts "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/header_test" "--gtest_filter=HeaderTest.EnumsAreInts")
+set_tests_properties(HeaderTest.EnumsAreInts PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;92;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(PipelineTest.SparseDenseEquivalent "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/pipeline_test" "--gtest_filter=PipelineTest.SparseDenseEquivalent")
+set_tests_properties(PipelineTest.SparseDenseEquivalent PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;94;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+add_test(PipelineTest.DeterministicNoWarmstart "/Users/alexshao/Desktop/mujoco/cmake-build-debug/bin/pipeline_test" "--gtest_filter=PipelineTest.DeterministicNoWarmstart")
+set_tests_properties(PipelineTest.DeterministicNoWarmstart PROPERTIES  SKIP_REGULAR_EXPRESSION "\\[  SKIPPED \\]" WORKING_DIRECTORY "/Users/alexshao/Desktop/mujoco/test" _BACKTRACE_TRIPLES "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GoogleTest.cmake;402;add_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;57;gtest_add_tests;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;94;mujoco_test;/Users/alexshao/Desktop/mujoco/test/CMakeLists.txt;0;")
+subdirs("benchmark")
+subdirs("engine")
+subdirs("sample")
+subdirs("user")
+subdirs("xml")
+subdirs("plugin/elasticity")
+subdirs("plugin/actuator")

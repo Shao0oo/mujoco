@@ -1,0 +1,19 @@
+# ninja log v5
+0	11	1742341514153268279	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir	ae62e180d5c2f00a
+2318	2329	1742341516471424762	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test	4fa86e82f664f78a
+2283	2295	1742341516437392402	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure	ba0e63432749558b
+0	11	1742341514153268279	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir	ae62e180d5c2f00a
+2318	2329	1742341516471424762	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test	4fa86e82f664f78a
+2272	2283	1742341516425403873	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch	3791b4d9504e1d4a
+2272	2283	1742341516425403873	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch	3791b4d9504e1d4a
+11	2272	1742341516413813639	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download	8028c451194cf28e
+2283	2295	1742341516437392402	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure	ba0e63432749558b
+2329	2345	1742341516487122409	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-done	6ed31cc7fb61ec16
+2307	2318	1742341516459892613	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install	d25c073ada8e4b55
+2329	2345	1742341516487122409	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-done	6ed31cc7fb61ec16
+2329	2345	1742341516487122409	CMakeFiles/glfw3-populate-complete	6ed31cc7fb61ec16
+11	2272	1742341516413813639	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download	8028c451194cf28e
+2307	2318	1742341516459892613	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install	d25c073ada8e4b55
+2295	2307	1742341516448721925	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build	ec0678d6d7f44cf6
+2295	2307	1742341516448721925	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build	ec0678d6d7f44cf6
+2329	2345	1742341516487122409	/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate-complete	6ed31cc7fb61ec16

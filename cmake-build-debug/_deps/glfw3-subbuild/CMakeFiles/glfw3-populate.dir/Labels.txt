@@ -1,0 +1,13 @@
+# Target labels
+ glfw3-populate
+# Source files and their labels
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate-complete.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch.rule
+/Users/alexshao/Desktop/mujoco/cmake-build-debug/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test.rule
